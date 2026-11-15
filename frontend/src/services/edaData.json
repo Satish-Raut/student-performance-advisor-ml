@@ -1,0 +1,230 @@
+{
+  "failures_impact": [
+    {
+      "failures": 0,
+      "risk_rate": 15.0,
+      "count": 861
+    },
+    {
+      "failures": 1,
+      "risk_rate": 48.3,
+      "count": 120
+    },
+    {
+      "failures": 2,
+      "risk_rate": 66.7,
+      "count": 33
+    },
+    {
+      "failures": 3,
+      "risk_rate": 70.0,
+      "count": 30
+    }
+  ],
+  "studytime_impact": [
+    {
+      "studytime": "< 2 hrs",
+      "risk_rate": 27.4,
+      "count": 317
+    },
+    {
+      "studytime": "2-5 hrs",
+      "risk_rate": 22.1,
+      "count": 503
+    },
+    {
+      "studytime": "5-10 hrs",
+      "risk_rate": 14.2,
+      "count": 162
+    },
+    {
+      "studytime": "> 10 hrs",
+      "risk_rate": 14.5,
+      "count": 62
+    }
+  ],
+  "absences_impact": [
+    {
+      "range": "0-5",
+      "risk_rate": 19.7,
+      "total_students": 710
+    },
+    {
+      "range": "6-10",
+      "risk_rate": 22.1,
+      "total_students": 181
+    },
+    {
+      "range": "11-15",
+      "risk_rate": 28.7,
+      "total_students": 94
+    },
+    {
+      "range": "16-20",
+      "risk_rate": 34.4,
+      "total_students": 32
+    },
+    {
+      "range": "20+",
+      "risk_rate": 44.4,
+      "total_students": 27
+    }
+  ],
+  "alcohol_impact": [
+    {
+      "score": 2,
+      "risk_rate": 19.2,
+      "count": 391
+    },
+    {
+      "score": 3,
+      "risk_rate": 17.6,
+      "count": 182
+    },
+    {
+      "score": 4,
+      "risk_rate": 23.9,
+      "count": 159
+    },
+    {
+      "score": 5,
+      "risk_rate": 23.7,
+      "count": 118
+    },
+    {
+      "score": 6,
+      "risk_rate": 32.9,
+      "count": 85
+    },
+    {
+      "score": 7,
+      "risk_rate": 22.4,
+      "count": 49
+    },
+    {
+      "score": 8,
+      "risk_rate": 23.1,
+      "count": 26
+    },
+    {
+      "score": 9,
+      "risk_rate": 40.0,
+      "count": 10
+    },
+    {
+      "score": 10,
+      "risk_rate": 33.3,
+      "count": 24
+    }
+  ],
+  "support_impact": [
+    {
+      "support": "School: no | Family: no",
+      "risk_rate": 21.8
+    },
+    {
+      "support": "School: no | Family: yes",
+      "risk_rate": 21.3
+    },
+    {
+      "support": "School: yes | Family: no",
+      "risk_rate": 21.9
+    },
+    {
+      "support": "School: yes | Family: yes",
+      "risk_rate": 27.6
+    }
+  ],
+  "grade_progression": [
+    {
+      "g1": 0,
+      "avg_g2": 11.0,
+      "avg_g3": 11.0
+    },
+    {
+      "g1": 3,
+      "avg_g2": 5.0,
+      "avg_g3": 5.0
+    },
+    {
+      "g1": 4,
+      "avg_g2": 2.7,
+      "avg_g3": 2.7
+    },
+    {
+      "g1": 5,
+      "avg_g2": 4.3,
+      "avg_g3": 3.7
+    },
+    {
+      "g1": 6,
+      "avg_g2": 6.4,
+      "avg_g3": 5.3
+    },
+    {
+      "g1": 7,
+      "avg_g2": 7.2,
+      "avg_g3": 6.3
+    },
+    {
+      "g1": 8,
+      "avg_g2": 8.4,
+      "avg_g3": 8.2
+    },
+    {
+      "g1": 9,
+      "avg_g2": 9.2,
+      "avg_g3": 9.2
+    },
+    {
+      "g1": 10,
+      "avg_g2": 10.1,
+      "avg_g3": 10.2
+    },
+    {
+      "g1": 11,
+      "avg_g2": 11.0,
+      "avg_g3": 11.3
+    },
+    {
+      "g1": 12,
+      "avg_g2": 11.9,
+      "avg_g3": 12.4
+    },
+    {
+      "g1": 13,
+      "avg_g2": 12.9,
+      "avg_g3": 13.1
+    },
+    {
+      "g1": 14,
+      "avg_g2": 13.9,
+      "avg_g3": 14.3
+    },
+    {
+      "g1": 15,
+      "avg_g2": 14.7,
+      "avg_g3": 15.2
+    },
+    {
+      "g1": 16,
+      "avg_g2": 15.8,
+      "avg_g3": 16.2
+    },
+    {
+      "g1": 17,
+      "avg_g2": 17.1,
+      "avg_g3": 17.2
+    },
+    {
+      "g1": 18,
+      "avg_g2": 18.0,
+      "avg_g3": 18.1
+    },
+    {
+      "g1": 19,
+      "avg_g2": 18.0,
+      "avg_g3": 18.8
+    }
+  ]
+}

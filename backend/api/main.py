@@ -45,9 +45,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ==========================================
 # 1. System & Health Endpoints
-# ==========================================
+
 @app.get("/", tags=["Root"])
 def root():
     return {
@@ -67,9 +66,8 @@ def health():
         "version": "1.0.0"
     }
 
-# ==========================================
 # 2. Single Student Inference Endpoint
-# ==========================================
+
 @app.post("/api/v1/predict", response_model=PredictionResponse, tags=["Inference"])
 def predict_single(student_data: StudentPredictionInput):
     """
@@ -97,9 +95,9 @@ def predict_single(student_data: StudentPredictionInput):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Inference error: {str(e)}")
 
-# ==========================================
+
 # 3. Batch Student Inference Endpoints
-# ==========================================
+
 @app.post("/api/v1/predict/batch", response_model=BatchPredictionResponse, tags=["Inference"])
 def predict_batch(batch_data: BatchStudentInput):
     """
@@ -190,9 +188,9 @@ async def predict_csv(file: UploadFile = File(...)):
     except Exception as e:
         raise HTTPException(status_code=400, detail=f"Error parsing CSV records: {str(e)}")
 
-# ==========================================
+
 # 4. Model Metadata & Governance Endpoints
-# ==========================================
+
 @app.get("/api/v1/model/metadata", response_model=ModelMetadataResponse, tags=["Model Governance"])
 def model_metadata():
     """
@@ -201,9 +199,8 @@ def model_metadata():
     """
     return get_model_metadata()
 
-# ==========================================
 # 5. MLOps Monitoring & Logs Endpoints
-# ==========================================
+
 @app.get("/api/v1/monitoring/logs", tags=["MLOps Monitoring"])
 def get_logs(limit: int = 50) -> List[Dict[str, Any]]:
     """Retrieve recent student prediction logs from SQLite."""
