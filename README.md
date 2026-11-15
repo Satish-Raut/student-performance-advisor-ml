@@ -108,40 +108,6 @@ In student retention and academic support, a **False Negative** (failing to iden
 
 ---
 
-## 📁 Repository Structure
-
-```
-.
-├── QUICKSTART.md              # Fast step-by-step start commands
-├── README.md                  # Comprehensive documentation
-├── Project_Architecture.md    # In-depth architectural blueprint
-├── Student_AtRisk_Project_Guide.md # Assignment & rubric guide
-│
-├── backend/                   # 🐍 FastAPI Backend & ML
-│   ├── .venv/                 # uv-managed virtual environment
-│   ├── api/                   # REST API routes, schemas, database
-│   │   ├── main.py            # FastAPI main application
-│   │   ├── schemas.py         # Pydantic validation schemas
-│   │   ├── service.py         # Inference & feature impact logic
-│   │   ├── database.py        # SQLite async logging
-│   │   └── pipeline.py        # Pipeline serialization wrapper
-│   ├── data/
-│   │   └── raw/               # student-mat.csv, student-por.csv
-│   ├── models/                # Production .pkl artifacts
-│   ├── notebooks/             # EDA & training Jupyter notebooks
-│   ├── src/                   # Standalone training script
-│   ├── tests/                 # Automated API test suite
-│   ├── pyproject.toml         # Modern Python configuration
-│   └── requirements.txt       # Pinned dependencies
-│
-└── frontend/                  # ⚛️ React 19 Frontend
-    ├── src/                   # Components, forms, dashboard views
-    ├── package.json           # Dependencies (lucide-react, recharts, axios)
-    └── vite.config.js         # Vite bundler configuration
-```
-
----
-
 ## ⚡ Quickstart Guide
 
 ### 1. Prerequisites
